@@ -57,6 +57,7 @@ struct FruitDetailView: View {
             }//: SCROLL
             .edgesIgnoringSafeArea(.top )
         } //: NAVIGATION
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     struct SwiftUIView_Previews: PreviewProvider {

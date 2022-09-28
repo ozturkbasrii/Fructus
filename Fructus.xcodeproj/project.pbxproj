@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A44890C428E4233B0062FAF6 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44890C328E4233B0062FAF6 /* FruitNutrientsView.swift */; };
+		A44890C628E44B640062FAF6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44890C528E44B640062FAF6 /* SettingsView.swift */; };
+		A44890C828E451500062FAF6 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44890C728E451500062FAF6 /* SettingsLabelView.swift */; };
+		A44890CA28E4552F0062FAF6 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44890C928E4552F0062FAF6 /* SettingsRowView.swift */; };
 		A45D45A928E32DC000231531 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D45A828E32DC000231531 /* FructusApp.swift */; };
 		A45D45AB28E32DC000231531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D45AA28E32DC000231531 /* ContentView.swift */; };
 		A45D45AD28E32DC100231531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45D45AC28E32DC100231531 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		A44890C328E4233B0062FAF6 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		A44890C528E44B640062FAF6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A44890C728E451500062FAF6 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		A44890C928E4552F0062FAF6 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		A45D45A528E32DC000231531 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45D45A828E32DC000231531 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		A45D45AA28E32DC000231531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 				A45D45AA28E32DC000231531 /* ContentView.swift */,
 				A45D45BC28E3471C00231531 /* OnboardingView.swift */,
 				A45D45C628E3601000231531 /* FruitDetailView.swift */,
+				A44890C528E44B640062FAF6 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -109,6 +116,8 @@
 				A45D45C828E364E000231531 /* FruitHeaderView.swift */,
 				A45D45CA28E3696C00231531 /* SourceLinkView.swift */,
 				A44890C328E4233B0062FAF6 /* FruitNutrientsView.swift */,
+				A44890C728E451500062FAF6 /* SettingsLabelView.swift */,
+				A44890C928E4552F0062FAF6 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +210,7 @@
 			files = (
 				A45D45C328E34C1700231531 /* FruitData.swift in Sources */,
 				A45D45CB28E3696C00231531 /* SourceLinkView.swift in Sources */,
+				A44890CA28E4552F0062FAF6 /* SettingsRowView.swift in Sources */,
 				A45D45B928E335B300231531 /* FruitCardView.swift in Sources */,
 				A45D45C728E3601000231531 /* FruitDetailView.swift in Sources */,
 				A44890C428E4233B0062FAF6 /* FruitNutrientsView.swift in Sources */,
@@ -209,8 +219,10 @@
 				A45D45AB28E32DC000231531 /* ContentView.swift in Sources */,
 				A45D45C928E364E000231531 /* FruitHeaderView.swift in Sources */,
 				A45D45BD28E3471C00231531 /* OnboardingView.swift in Sources */,
+				A44890C828E451500062FAF6 /* SettingsLabelView.swift in Sources */,
 				A45D45C028E349AF00231531 /* FruitModel.swift in Sources */,
 				A45D45A928E32DC000231531 /* FructusApp.swift in Sources */,
+				A44890C628E44B640062FAF6 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
